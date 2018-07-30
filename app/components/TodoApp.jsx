@@ -3,6 +3,7 @@ let React = require ('react');
 
 let TodoList = require('TodoList');
 let AddTodo=require('AddTodo');
+let TodoSearch=require('TodoSearch');
 
 
 let TodoApp = React.createClass({
@@ -30,12 +31,21 @@ let TodoApp = React.createClass({
                 text:'Walk the fish'
             },
 
-        ]
+        ],
+          showCompleted:false,
+          searchText:'',
       };
     },
 
     handleAddTodo:function(text){
         alert('new todo: ' + text);
+    },
+
+    handleSearch:function(showCompleted, searchText){
+        this.setState({
+            showCompleted:showCompleted,
+            searchText:searchText.toLowerCase(),
+        });
     },
 
     render:function () {
@@ -44,6 +54,7 @@ let TodoApp = React.createClass({
        return (
            <div>
              <h1>Todo</h1>
+                <TodoSearch onSearch={this.handleSearch}/>
                 <TodoList todos={todos} />
                 <AddTodo onAdd={this.handleAddTodo}/>
            </div>
