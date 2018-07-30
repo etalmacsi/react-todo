@@ -1,0 +1,13 @@
+let React = require('react');
+let ReactDom = require('react-dom');
+let TextUtils = require('react-addons-test-utils');
+let expect = require('expect');
+let $ =require('jquery');
+
+let Todo = require('Todo');
+
+describe('Todo',()=>{
+    it('should exist',()=>{
+        expect(Todo).toExist();
+    });
+});
