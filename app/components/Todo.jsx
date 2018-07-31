@@ -10,7 +10,7 @@ let Todo= React.createClass({
                 this.props.onToggle(id);
             }}>
 
-                    <input type="checkbox" defaultChecked checked={completed} onChange={()=>{}} />
+                    <input type="checkbox" defaultChecked checked={completed} />
                     {text}
 
             </div>
