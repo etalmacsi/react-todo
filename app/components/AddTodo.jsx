@@ -23,7 +23,7 @@ let AddTodo = React.createClass({
           <div>
               <form onSubmit={this.onFormSubmit}>
                   <input type="text" ref="text" placeholder="What do you need to do?"/>
-                    <button>
+                    <button className="button expanded">
                          Add Todo
                    </button>
               </form>

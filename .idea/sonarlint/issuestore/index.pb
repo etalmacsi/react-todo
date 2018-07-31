@@ -28,3 +28,23 @@ E
 karma.conf.js,6\e\6eb8460cf2aab85b9580d3e2e5e3c951e67f257f
 Y
 )app/styles/base/_foundation-settings.scss,2\e\2eaf8d8da74ca351003b5547c15c75106b201d70
+G
+app/components/Todo.jsx,c\9\c98ed8da3ad97f18eec559be0baa1a672bf7513b
+J
+app/components/AddTodo.jsx,1\b\1baa6408947de10191f349489ea6e11baa390284
+U
+%app/test/components/TodoList.test.jsx,f\d\fd7f7572dae7f76c06c386da845d0c469391e529
+T
+$app/test/components/AddTodo.test.jsx,4\8\486d04571be32980e826c2ecfe1abef5c3e562e4
+Q
+!app/test/components/Todo.test.jsx,2\b\2b6861d856059c52a5ab88a2c36c1e1ef86474f0
+W
+'app/test/components/TodoSearch.test.jsx,3\a\3a605885a4454e34816fb120158996c0b2e7e51a
+M
+app/components/TodoSearch.jsx,3\c\3c39fd6a5ec2ee2cf54d8b1442a112ba87fd7c3e
+K
+app/components/TodoList.jsx,0\8\08e919a094997e41edcc5dcbd9bd1033b8ac388b
+J
+app/components/TodoApp.jsx,d\a\daa5d6f398720b0184414d0c8ece0f03070c2982
+T
+$app/test/components/TodoApp.test.jsx,e\3\e3d5bb4e96c30dd91d863563e7b9f3e801a52b19
