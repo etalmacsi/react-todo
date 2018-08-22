@@ -7,6 +7,17 @@ import './../playground/index';
 
 let TodoApp =require('TodoApp');
 
+let actions = require('actions');
+let store = require('configureStore').configure();
+
+store.subscribe(()=>{
+	console.log('new state',store.getState());
+});
+
+store.dispatch(actions.addTodo('cleann'));
+store.dispatch(actions.setSearchText('yard'));
+store.dispatch(actions.toggleShowCompleted());
+
 //load Fundation
 $(document).foundation();
 
