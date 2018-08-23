@@ -3,7 +3,7 @@ let React = require ('react');
 let TodoAPI = require('TodoAPI');
 import TodoList from 'TodoList';
 import AddTodo from 'AddTodo';
-let TodoSearch=require('TodoSearch');
+import TodoSearch from 'TodoSearch';
 let uuid =require('uuid');
 let moment = require('moment');
 
