@@ -1,7 +1,7 @@
 let React = require('react');
 let ReactDOM = require('react-dom');
 let {Route, Router, IndexRoute, hashHistory} =require('react-router');
-
+let {Provider} =require('react-redux');
 import './../playground/index';
 
 
@@ -25,7 +25,8 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-
-	<TodoApp/>,
+	<Provider store={store}>
+        <TodoApp/>
+	</Provider>,
   document.getElementById('app')
 );
