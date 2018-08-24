@@ -12,7 +12,6 @@ export let addTodo = (text)=>{
     };
 };
 
-
 export let toggleShowCompleted = ()=>{
     return{
         type:'TOGGLE_SHOW_COMPLETED'
@@ -24,4 +23,11 @@ export let toggleTodo=(id)=>{
         type:'TOGGLE_TODO',
         id
   };
+};
+
+export let addTodos=(todos)=>{
+    return{
+        type:'ADD_TODOS',
+        todos
+    };
 };
